@@ -1,1 +1,6 @@
 \\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\TestGit\TestGit\bin\Debug\TestGit.exe.config
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\TestGit\TestGit\bin\Debug\TestGit.exe
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\TestGit\TestGit\bin\Debug\TestGit.pdb
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\TestGit\TestGit\obj\Debug\TestGit.csprojResolveAssemblyReference.cache
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\TestGit\TestGit\obj\Debug\TestGit.exe
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\TestGit\TestGit\obj\Debug\TestGit.pdb
