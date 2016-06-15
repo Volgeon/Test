@@ -52,3 +52,14 @@ cd programs
 ls
 cd proc
 ls
+cd u
+echo 'Test2' >> README.md
+git push origin master
+git push --help
+git pull
+git push
+git pull
+git commit
+git add .
+git commit -m 'TEstosteron'
+git push
