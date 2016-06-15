@@ -1,0 +1,120 @@
+--FI4F J.Kappes
+USE DbLKoh05; -- Klassendatenbank auswählen
+--Tabellen anlegen
+CREATE TABLE tbl_06aPersonal
+(
+  --Attributbezeichner***DatenTyp***Funktion
+  Persnr                INTEGER     PRIMARY KEY,
+  Name                  CHAR(35)    NOT NULL,
+  Ort                   CHAR(25),
+  Vorgesetzt            INTEGER      REFERENCES tbl_06aPersonal,
+  Gehalt                NUMERIC(9,2)
+);
+-- ...
+--FK -> muss selben Datentyp wie PK haben
+--Numeric -> 9 Stellen
+-- ...
+CREATE TABLE tbl_06aKunde
+(
+  Nr                INTEGER     PRIMARY KEY,
+  Name              CHAR(35)    NOT NULL,
+  Strasse           CHAR(25),
+  PLZ               CHAR(15),
+  Ort               CHAR(25)
+);
+CREATE TABLE tbl_06aAuftrag
+(
+  Auftrnr    INTEGER     PRIMARY KEY,
+  Datum      DATETIME,
+  KundNr     INTEGER REFERENCES tbl_06aKunde,
+  Persnr     INTEGER REFERENCES tbl_06aPersonal
+);
+--***wegen Referenzen auf Reihefolge achten !!!
+--AUTOincrement + DEFAULT + aktuelles Datum
+DROP TABLE tbl_06aAuftrag;
+CREATE TABLE tbl_06aAuftrag
+(
+  Auftrnr    INTEGER   IDENTITY(1,1)  PRIMARY KEY,
+  Datum      DATETIME  DEFAULT GETDATE(),
+  KundNr     INTEGER REFERENCES tbl_06aKunde,
+  Persnr     INTEGER REFERENCES tbl_06aPersonal
+);
+--***Tabellen löschen -> Vorsicht mit Daten
+DROP TABLE tbl_06aPersonal;
+--***Tabellen ändern
+ALTER TABLE dbo.tbl_06aPersonal
+ADD Bemerkung CHAR(20);
+ALTER TABLE dbo.tbl_06aPersonal
+DROP COLUMN Bemerkung;
+--***27.11.2014
+--Tabellen füllen
+-- alle Attribute
+INSERT INTO tbl_06aPersonal
+VALUES(1,'Maria Forster','Regensburg',NULL,6800.00);
+INSERT INTO tbl_06aPersonal
+VALUES(2,'Anna Kraus','Regensburg',1,3400.00);
+INSERT INTO tbl_06aPersonal
+VALUES(3,'Ursula Rank','Straubing',6,4200.00);
+INSERT INTO tbl_06aPersonal
+VALUES(4,'Heinz Rolle','Nürnberg',1,4600.00);
+INSERT INTO tbl_06aPersonal
+VALUES(5,'Johanna Köster','Nürnberg',1,3200.00);
+INSERT INTO tbl_06aPersonal
+VALUES(6,'Marianne Lambert','Landshut',NULL,5500.00);
+INSERT INTO tbl_06aPersonal
+VALUES(7,'Thomas Noster','Regensburg',6,3800.00);
+INSERT INTO tbl_06aPersonal
+VALUES(8,'Renate Wolters','Kelheim',1,4700.00);
+INSERT INTO tbl_06aPersonal
+VALUES(9,'Ernst Pach','Passau',6,800.00);
+
+INSERT INTO tbl_06aKunde
+VALUES(1,'Fahrrad Shop', 'Obere Regenstr. 4',93059,'Regensburg');
+INSERT INTO tbl_06aKunde
+VALUES(2,'Zweirad-Center Staller', 'Kirschenstr. 20',01169,'Dresden');
+INSERT INTO tbl_06aKunde
+VALUES(3,'Maier Ingrid', 'Universitaetsstr. 33',93055,'Regensburg');
+INSERT INTO tbl_06aKunde
+VALUES(4,'Rafa - Seger KG', 'Liebigstr. 10',10247,'Berlin');
+INSERT INTO tbl_06aKunde
+VALUES(5,'Biker Ecke', 'Lessingstr. 37',22087,'Hamburg');
+INSERT INTO tbl_06aKunde
+VALUES(6,'Fahrräder Hammerl', 'Schindlerplatz 7',81739,'München');
+
+
+
+
+--einzelne Attribute einfügen
+INSERT INTO tbl_06aAuftrag(KundNr,Persnr)
+VALUES(1,2);
+INSERT INTO tbl_06aAuftrag(KundNr,Persnr)
+VALUES(3,5);
+INSERT INTO tbl_06aAuftrag(KundNr,Persnr)
+VALUES(4,2);
+INSERT INTO tbl_06aAuftrag(KundNr,Persnr)
+VALUES(6,5);
+INSERT INTO tbl_06aAuftrag(KundNr,Persnr)
+VALUES(1,2);
+
+
+--
+UPDATE tbl_06aAuftrag
+SET Datum = '04.08.1998'
+WHERE AuftrNr = 1
+
+UPDATE tbl_06aAuftrag
+SET Datum = '06.09.1998'
+WHERE AuftrNr = 2
+
+UPDATE tbl_06aAuftrag
+SET Datum = '07.10.1998'
+WHERE AuftrNr = 3
+
+UPDATE tbl_06aAuftrag
+SET Datum = '18.10.1998'
+WHERE AuftrNr = 4
+
+UPDATE tbl_06aAuftrag
+SET Datum = '06.11.1998'
+WHERE AuftrNr = 5
+--Integritätsregeln testen

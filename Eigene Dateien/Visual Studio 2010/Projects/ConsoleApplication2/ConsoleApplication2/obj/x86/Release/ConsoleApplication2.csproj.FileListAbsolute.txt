@@ -1,0 +1,1 @@
+\\WFS-VMF1-001\FI4F$\König\Eigene Dateien\Visual Studio 2010\Projects\ConsoleApplication2\ConsoleApplication2\obj\x86\Release\ResolveAssemblyReference.cache

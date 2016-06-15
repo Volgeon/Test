@@ -1,0 +1,9 @@
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\Datenbank\Datenbank\bin\Debug\Datenbank.dacpac
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\Datenbank\Datenbank\bin\Debug\Datenbank.dll
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\Datenbank\Datenbank\bin\Debug\Datenbank.pdb
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\Datenbank\Datenbank\obj\Debug\Model.xml
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\Datenbank\Datenbank\obj\Debug\refactor.xml
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\Datenbank\Datenbank\obj\Debug\postdeploy.sql
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\Datenbank\Datenbank\obj\Debug\predeploy.sql
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\Datenbank\Datenbank\obj\Debug\Datenbank.dll
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\Datenbank\Datenbank\obj\Debug\Datenbank.pdb

@@ -1,0 +1,5 @@
+\\wfs-vmf1-001\fi4f$\könig\eigene dateien\visual studio 2010\Projects\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+\\wfs-vmf1-001\fi4f$\könig\eigene dateien\visual studio 2010\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+\\wfs-vmf1-001\fi4f$\könig\eigene dateien\visual studio 2010\Projects\ConsoleApplication1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+\\wfs-vmf1-001\fi4f$\könig\eigene dateien\visual studio 2010\Projects\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+\\wfs-vmf1-001\fi4f$\könig\eigene dateien\visual studio 2010\Projects\ConsoleApplication1\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb

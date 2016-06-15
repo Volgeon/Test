@@ -1,0 +1,16 @@
+Domäne
+
+- Zusammenschluss mehrerer Einzelplatzrechner
+- Anmeldeinformation nicht lokal, sondern im Active Directory (Domänencontroller)
+- Verzeichnisdienst ist auf Server
+
+Domänencontroller
+
+- verwaltet die Nutzer in einer Domäne (Name, Kennwort)
+- stellt weitere Informationen zur Verfügung (E-Mail, Wohnort, etc.)
+
+Active Directory
+
+- Verzeichnisdienst aus Server-Familie von Windows
+=> Datenbank mit Anmeldeinformationen (für einen Computer) in einer Domäne
+

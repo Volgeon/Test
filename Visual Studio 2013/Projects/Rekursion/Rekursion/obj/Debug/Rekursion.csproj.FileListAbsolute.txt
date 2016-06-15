@@ -1,0 +1,6 @@
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\Rekursion\Rekursion\bin\Debug\Rekursion.exe.config
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\Rekursion\Rekursion\bin\Debug\Rekursion.exe
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\Rekursion\Rekursion\bin\Debug\Rekursion.pdb
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\Rekursion\Rekursion\obj\Debug\Rekursion.exe
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\Rekursion\Rekursion\obj\Debug\Rekursion.pdb
+\\WFS-VMF1-001\FI4F$\König\Visual Studio 2013\Projects\Rekursion\Rekursion\obj\Debug\Rekursion.csprojResolveAssemblyReference.cache

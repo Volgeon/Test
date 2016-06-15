@@ -1,0 +1,5 @@
+[user]
+	name = MK Test
+	email = mktest@byom.de
+[http]
+	proxy = https://172.22.100.2:443

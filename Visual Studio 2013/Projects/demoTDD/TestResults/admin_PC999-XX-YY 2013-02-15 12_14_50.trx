@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f9563a17-1f19-4689-a2b0-4850a237c4d3" name="admin@PC999-XX-YY 2013-02-15 12:14:50" runUser="PC999-XX-YY\admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Lokal" id="53d1b5d7-46f1-4bfb-8715-c68e9132b9c7">
+    <Description>Dies sind die standardmäßigen Testeinstellungen für einen lokalen Testlauf.</Description>
+    <Deployment enabled="false" runDeploymentRoot="admin_PC999-XX-YY 2013-02-15 12_14_50">
+      <DeploymentItem filename="c:\dokumente und einstellungen\admin\eigene dateien\visual studio 2010\Projects\demoTDD\demoTDD\bin\Debug\demoTDD.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-02-15T12:14:50.8153424+01:00" queuing="2013-02-15T12:14:53.2788848+01:00" start="2013-02-15T12:14:53.6594320+01:00" finish="2013-02-15T12:14:54.7710304+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="testQuotient" storage="c:\dokumente und einstellungen\admin\eigene dateien\visual studio 2010\projects\demotdd\testdemotdd\bin\debug\testdemotdd.dll" id="5a84dace-dd9b-527b-3d32-71258108951d">
+      <Execution id="4e93c064-03ce-4d85-8bb5-bfbefa309975" />
+      <TestMethod codeBase="c:/dokumente und einstellungen/admin/eigene dateien/visual studio 2010/Projects/demoTDD/testDemoTDD/bin/Debug/testDemoTDD.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="testDemoTDD.testBruch, testDemoTDD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="testQuotient" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Nicht in einer Liste enthaltene Ergebnisse" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Alle geladenen Ergebnisse" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="5a84dace-dd9b-527b-3d32-71258108951d" executionId="4e93c064-03ce-4d85-8bb5-bfbefa309975" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4e93c064-03ce-4d85-8bb5-bfbefa309975" testId="5a84dace-dd9b-527b-3d32-71258108951d" testName="testQuotient" computerName="PC999-XX-YY" duration="00:00:00.0399064" startTime="2013-02-15T12:14:53.7695904+01:00" endTime="2013-02-15T12:14:54.4705984+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4e93c064-03ce-4d85-8bb5-bfbefa309975">
+    </UnitTestResult>
+  </Results>
+</TestRun>

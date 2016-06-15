@@ -1,0 +1,5 @@
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\VorbereitungArbeit\VorbereitungArbeit\bin\Debug\VorbereitungArbeit.exe.config
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\VorbereitungArbeit\VorbereitungArbeit\bin\Debug\VorbereitungArbeit.exe
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\VorbereitungArbeit\VorbereitungArbeit\bin\Debug\VorbereitungArbeit.pdb
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\VorbereitungArbeit\VorbereitungArbeit\obj\Debug\VorbereitungArbeit.exe
+\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\VorbereitungArbeit\VorbereitungArbeit\obj\Debug\VorbereitungArbeit.pdb
