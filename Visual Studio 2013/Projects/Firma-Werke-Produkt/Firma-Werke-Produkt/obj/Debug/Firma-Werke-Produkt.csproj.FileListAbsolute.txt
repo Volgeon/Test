@@ -1,6 +1,0 @@
-\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\Firma-Werke-Produkt\Firma-Werke-Produkt\bin\Debug\Firma-Werke-Produkt.exe.config
-\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\Firma-Werke-Produkt\Firma-Werke-Produkt\obj\Debug\Firma-Werke-Produkt.csprojResolveAssemblyReference.cache
-\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\Firma-Werke-Produkt\Firma-Werke-Produkt\bin\Debug\Firma-Werke-Produkt.exe
-\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\Firma-Werke-Produkt\Firma-Werke-Produkt\bin\Debug\Firma-Werke-Produkt.pdb
-\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\Firma-Werke-Produkt\Firma-Werke-Produkt\obj\Debug\Firma-Werke-Produkt.exe
-\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\Firma-Werke-Produkt\Firma-Werke-Produkt\obj\Debug\Firma-Werke-Produkt.pdb

@@ -1,6 +1,0 @@
-\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\FahrzeugVererbung\FahrzeugVererbung\bin\Debug\FahrzeugVererbung.exe.config
-\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\FahrzeugVererbung\FahrzeugVererbung\obj\Debug\FahrzeugVererbung.csprojResolveAssemblyReference.cache
-\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\FahrzeugVererbung\FahrzeugVererbung\bin\Debug\FahrzeugVererbung.exe
-\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\FahrzeugVererbung\FahrzeugVererbung\bin\Debug\FahrzeugVererbung.pdb
-\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\FahrzeugVererbung\FahrzeugVererbung\obj\Debug\FahrzeugVererbung.exe
-\\wfs-vmf1-001\fi4f$\könig\visual studio 2013\Projects\FahrzeugVererbung\FahrzeugVererbung\obj\Debug\FahrzeugVererbung.pdb
