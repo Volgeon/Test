@@ -1,5 +1,0 @@
-\\WFS-VMF1-001\FI4F$\König\Eigene Dateien\Visual Studio 2010\Projects\ConsoleApplication4\ConsoleApplication4\obj\x86\Debug\ResolveAssemblyReference.cache
-\\WFS-VMF1-001\FI4F$\König\Eigene Dateien\Visual Studio 2010\Projects\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.exe
-\\WFS-VMF1-001\FI4F$\König\Eigene Dateien\Visual Studio 2010\Projects\ConsoleApplication4\ConsoleApplication4\bin\Debug\ConsoleApplication4.pdb
-\\WFS-VMF1-001\FI4F$\König\Eigene Dateien\Visual Studio 2010\Projects\ConsoleApplication4\ConsoleApplication4\obj\x86\Debug\ConsoleApplication4.exe
-\\WFS-VMF1-001\FI4F$\König\Eigene Dateien\Visual Studio 2010\Projects\ConsoleApplication4\ConsoleApplication4\obj\x86\Debug\ConsoleApplication4.pdb
